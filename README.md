@@ -1,2 +1,3 @@
-# Web-Cursos-Dash
-Web Cursos é uma dashbaord focada em adminstrar as atividades dos usuários a uma plataforma de cursos online 
+# Web Cursos Online
+
+A Web Cursos é um site ficticio focado em aprendizado de tecnologia 
