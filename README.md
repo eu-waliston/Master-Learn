@@ -6,13 +6,13 @@ O projeto é ficticio tudo que esta sendo feito aqui, é apenas sob propósitos 
 
 ## Algumas das tecnologias utilizasdas:
 
-### Front - end:  
+### Frontend:  
     - ReactJS
     - Scss
     - React Router Dom
     - React Icons 
     - Css 
-### Back - end 
+### Backend 
     - NodeJS
     - Express
     - Passport 
