@@ -1,7 +1,8 @@
 .nav-compnent {
     width: 100%;
-    height: 90px;
+    height: 120px;
     position: fixed;
+    border-bottom: 1px solid #5245a667;
 }
 
 .nav--itens {
@@ -18,9 +19,28 @@
     text-transform: capitalize;
     font-weight: bolder;
     font-size: 3rem;
+    color:  #5245A6;
 }
-.log--itens li {
-    margin-left: 40px;
-    list-style: none;
-    margin-top: 10px;
+.log--itens {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.link__to {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #5245A6;
+    text-transform: uppercase;
+    font-weight: 600 ;
+}
+
+.link__to:first-child {
+    text-decoration: none;
+    margin-right: 40px;
+    background-color: #5245A6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
 }
