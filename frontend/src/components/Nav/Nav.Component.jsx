@@ -6,8 +6,8 @@ const Nav = () => {
   return (
     <div className="nav-compnent">
       <div className="nav--itens">
-        <div>
-            <h2>master lern</h2>
+        <div className="logo">
+            <h2>m l</h2>
         </div>
         <div className="web__iconst">
             <a href="#home">inicio</a>

@@ -14,13 +14,19 @@
     display: flex;
 }
 
-.nav--itens h2 {
+
+.logo h2 {
     text-transform: capitalize;
     font-weight: bolder;
-    font-size: 2.8rem;
-    color:  #5245A6;
+    font-size: 2rem;
+    color:  #ffffff;
     margin-left: 30px;
+    background-color: #5245A6;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 100%;
 }
+
 .log--itens {
     display: flex;
     text-align: center;
