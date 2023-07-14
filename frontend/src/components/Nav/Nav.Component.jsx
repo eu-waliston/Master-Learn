@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav-compnent">
       <div className="nav--itens">
         <div className="logo">
-          <Link to={"/"}>
+          <Link to={"/"} className="ss">
             <h2>m l</h2>
           </Link>
         </div>
