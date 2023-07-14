@@ -22,7 +22,7 @@ const Nav = () => {
           <Link to="/login" className="link__to">
             sou aluno
           </Link>
-          <Link to="" className="link__to">
+          <Link to="/register" className="link__to">
             cadastrar
           </Link>
         </div>

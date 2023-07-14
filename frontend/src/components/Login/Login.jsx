@@ -13,7 +13,7 @@ const Login = () => {
   const onSubmit = (data) => {
     console.log(data);
   };
-
+  console.log(watch);
   return (
     <div className="login--component">
       <div>
