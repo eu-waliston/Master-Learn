@@ -4,6 +4,10 @@
 }
 
 /* Home Section */
+.home--section {
+    height: 100vh;
+    width: 100%;
+}
 
 .welcome--itens {
     display: flex;
