@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  ---text-color:  #5245a6;
+}
+
 .App {
   width: 100%;
 }
