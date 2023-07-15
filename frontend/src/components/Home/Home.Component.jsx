@@ -42,11 +42,19 @@ const Home = () => {
       </section>
 
       {/* #TODO About us section  */}
-      <div className="about--section"></div>
+      <section className="about--section" id="about-us">
+        
+      </section>
+
+      {/* #TODO About us section  */}
+      <div className="preco--section"></div>
+
       {/* #TODO Tutors section */}
       <div className="tutors--section"></div>
+
       {/* #TODO Depoiments section */}
       <div className="depoiments--section"></div>
+
       {/* #TODO Contact us section */}
       <div className="contact--section"></div>
     </div>

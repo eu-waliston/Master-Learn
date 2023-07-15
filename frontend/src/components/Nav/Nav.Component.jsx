@@ -14,8 +14,9 @@ const Nav = () => {
         <div className="web__iconst">
           <a href="#home">inicio</a>
           <a href="#about-us">sobre nós</a>
+          <a href="#prices">preços</a>
           <a href="#tutors">professores</a>
-          <a href="#depoiments">depoimentos</a>
+          <a href="#prices">depoimentos</a>
           <a href="#contact-us">contato</a>
         </div>
         <div className="log--itens">
