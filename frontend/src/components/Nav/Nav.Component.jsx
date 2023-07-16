@@ -12,12 +12,12 @@ const Nav = () => {
           </Link>
         </div>
         <div className="web__iconst">
-          <a href="#home">inicio</a>
-          <a href="#about-us">sobre nós</a>
-          <a href="#prices">preços</a>
-          <a href="#tutors">professores</a>
-          <a href="#depoiments">depoimentos</a>
-          <a href="#contact-us">contato</a>
+          <a href="#inicio">inicio</a>
+          <a href="#sobre-nos">sobre nós</a>
+          <a href="#precos">preços</a>
+          <a href="#professores">professores</a>
+          <a href="#depoimentos">depoimentos</a>
+          <a href="#contato">contato</a>
         </div>
         <div className="log--itens">
           <Link to="/login" className="link__to">

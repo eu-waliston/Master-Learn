@@ -76,6 +76,25 @@
 
 /* About us section */
 .about--section {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.about-img {
+    width: 650px;
+}
+.about--section h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(---text-color);
+}
+.about--section h4 {
+   font-weight: 300;
+   position: relative;
+   top: 30px; 
 }
 
 /* Price section */

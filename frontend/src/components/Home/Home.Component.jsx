@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="main--component">
-      <section className="home--section" id="home">
+      <section className="home--section" id="inicio">
         <div className="welcome--itens">
           <div>
             <img
@@ -42,21 +42,42 @@ const Home = () => {
       </section>
 
       {/* #TODO About us section  */}
-      <section className="about--section" id="about-us">
-        
+      <section className="about--section" id="sobre-nos">
+        <div>
+          <h1>sobre nós</h1>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum porro
+            perspiciatis aperiam. Iste dicta, vero maxime doloribus quaerat sint
+            officia quisquam rem est eligendi! Doloremque eum impedit inventore
+            dolore velit!
+          </h4>
+          <br />
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum porro
+            perspiciatis aperiam. Iste dicta, vero maxime doloribus quaerat sint
+            officia quisquam rem est eligendi! Doloremque eum impedit inventore
+            dolore velit! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Earum porro perspiciatis aperiam. Iste dicta, vero maxime
+            doloribus quaerat sint officia quisquam rem est eligendi! Doloremque
+            eum impedit inventore dolore velit!
+          </h4>
+        </div>
+        <div>
+          <img src="./images/OBJECTS.png" alt="about" className="about-img"/>
+        </div>
       </section>
 
       {/* #TODO About us section  */}
-      <div className="preco--section" id="prices"></div>
+      <div className="preco--section" id="precos"></div>
 
       {/* #TODO Tutors section */}
-      <div className="tutors--section" id="tutors"></div>
+      <div className="tutors--section" id="professores"></div>
 
       {/* #TODO Depoiments section */}
-      <div className="depoiments--section" id="depoiments"></div>
+      <div className="depoiments--section" id="depoimentos"></div>
 
       {/* #TODO Contact us section */}
-      <div className="contact--section" id="contact-us"></div>
+      <div className="contact--section" id="contato"></div>
     </div>
   );
 };
