@@ -75,7 +75,7 @@ const Home = () => {
       <div className="preco--section" id="precos">
         <div className="prices--infos">
           <h1>escolha seu plano</h1>
-          <h4>
+          <h4 className="prices-h4">
             e venha fazer parte da melhor escola de programação do brasil.
           </h4>
           <div className="prices">
@@ -83,7 +83,7 @@ const Home = () => {
               <i class="bi bi-diamond"></i>
               <h2>básico</h2>
               <h3>R$ 30/mês</h3>
-              <h4>
+              <h4 className="infos">
                 este é nosso plano básico ele cobre 70% do contéudo da
                 plataforma isso inclui:
               </h4>
@@ -95,15 +95,27 @@ const Home = () => {
                 <h4>
                   <i class="bi bi-check-lg"></i> forum para duvidas
                 </h4>
+                <h4>
+                  <i class="bi bi-check-lg"></i> suporte 12h
+                </h4>
+                <h4>
+                  <i class="bi bi-check-lg"></i> 3 video conferências ao mês
+                </h4>
+                <h4>
+                  <i class="bi bi-check-lg"></i> comunidade discord
+                </h4>
+                <h4>
+                  <i class="bi bi-check-lg"></i> professor particular*
+                </h4>
               </div>
-              <button>contratar</button>
+              <input type="button" value="Contratar" className="btn-primary"/>
             </div>
 
             <div className="price foccus">
               <i class="bi bi-diamond-half"></i>
               <h2>Pro</h2>
               <h3>R$ 90/mês</h3>
-              <h4>
+              <h4 className="infos">
                 este é nosso plano pro ele cobre 100% do contéudo da plataforma
                 isso inclui:
               </h4>
@@ -122,22 +134,22 @@ const Home = () => {
                   <i class="bi bi-check-lg"></i> video conferências
                 </h4>
                 <h4>
-                  <i class="bi bi-check-lg"></i> pair programming*
+                  <i class="bi bi-check-lg"></i> comunidade vip
                 </h4>
                 <h4>
                   <i class="bi bi-check-lg"></i> professor particular
                 </h4>
               </div>
-              <button>contratar</button>
+              <input type="button" value="Contratar" className="btn-primary"/>
+
             </div>
 
             <div className="price">
               <i class="bi bi-diamond-fill"></i>
               <h2>Empresas</h2>
               <h3>R$ 190/mês</h3>
-              <h4>
-                este é nosso plano empresarial ele cobre 100% do contéudo da
-                plataforma isso inclui:
+              <h4 className="infos">
+                este é nosso plano empresarial ele cobre 100% do contéudo isso inclui:
               </h4>
               <br />
               <div className="offer-list">
@@ -154,13 +166,13 @@ const Home = () => {
                   <i class="bi bi-check-lg"></i> video conferências
                 </h4>
                 <h4>
-                  <i class="bi bi-check-lg"></i> pair programming*
+                  <i class="bi bi-check-lg"></i> comunidade premium
                 </h4>
                 <h4>
                   <i class="bi bi-check-lg"></i> professor particular
                 </h4>
               </div>
-              <button>contratar</button>
+              <input type="button" value="Contratar" className="btn-primary"/>
             </div>
           </div>
         </div>
