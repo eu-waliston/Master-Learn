@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="#about-us">sobre nós</a>
           <a href="#prices">preços</a>
           <a href="#tutors">professores</a>
-          <a href="#prices">depoimentos</a>
+          <a href="#depoiments">depoimentos</a>
           <a href="#contact-us">contato</a>
         </div>
         <div className="log--itens">

@@ -47,16 +47,16 @@ const Home = () => {
       </section>
 
       {/* #TODO About us section  */}
-      <div className="preco--section"></div>
+      <div className="preco--section" id="prices"></div>
 
       {/* #TODO Tutors section */}
-      <div className="tutors--section"></div>
+      <div className="tutors--section" id="tutors"></div>
 
       {/* #TODO Depoiments section */}
-      <div className="depoiments--section"></div>
+      <div className="depoiments--section" id="depoiments"></div>
 
       {/* #TODO Contact us section */}
-      <div className="contact--section"></div>
+      <div className="contact--section" id="contact-us"></div>
     </div>
   );
 };
