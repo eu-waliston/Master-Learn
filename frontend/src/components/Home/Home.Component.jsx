@@ -71,8 +71,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* #TODO About us section  */}
-      <div className="preco--section" id="precos">
+      <div className="price--section" id="precos">
         <div className="prices--infos">
           <h1>escolha seu plano</h1>
           <h4 className="prices-h4">
@@ -108,7 +107,7 @@ const Home = () => {
                   <i class="bi bi-check-lg"></i> professor particular*
                 </h4>
               </div>
-              <input type="button" value="Contratar" className="btn-primary"/>
+              <input type="button" value="Contratar" className="btn-primary" />
             </div>
 
             <div className="price foccus">
@@ -140,8 +139,7 @@ const Home = () => {
                   <i class="bi bi-check-lg"></i> professor particular
                 </h4>
               </div>
-              <input type="button" value="Contratar" className="btn-primary"/>
-
+              <input type="button" value="Contratar" className="btn-primary" />
             </div>
 
             <div className="price">
@@ -149,7 +147,8 @@ const Home = () => {
               <h2>Empresas</h2>
               <h3>R$ 190/mês</h3>
               <h4 className="infos">
-                este é nosso plano empresarial ele cobre 100% do contéudo isso inclui:
+                este é nosso plano empresarial ele cobre 100% do contéudo isso
+                inclui:
               </h4>
               <br />
               <div className="offer-list">
@@ -172,14 +171,41 @@ const Home = () => {
                   <i class="bi bi-check-lg"></i> professor particular
                 </h4>
               </div>
-              <input type="button" value="Contratar" className="btn-primary"/>
+              <input type="button" value="Contratar" className="btn-primary" />
             </div>
           </div>
         </div>
       </div>
 
       {/* #TODO Tutors section */}
-      <div className="tutors--section" id="professores"></div>
+      <div className="tutors--section" id="professores">
+        <h1 className="tutor-know-1">conheça o time</h1>
+        <h5 className="tutor-know-2">A Master Learn conta com os melhores professores nas principais areas do desenvolvimento web</h5>
+
+        <div className="tutors">
+
+          <div className="tutor">
+            <img src="./images/tutor-1.jpg" alt="tutor" className="tutor--img"/>
+            <h1>Fernando</h1>
+            <h5>Back-end</h5>
+          </div>
+
+          <div className="tutor">
+            <img src="./images/tutor-2.jpg" alt="tutor" className="tutor--img"/>
+            <h1>Clara</h1>
+            <h5>Front-end</h5>
+   
+          </div>
+
+          <div className="tutor">
+            <img src="./images/tutor-3.jpg" alt="tutor" className="tutor--img"/>
+            <h1>Lucca</h1>
+            <h5>UX/UI</h5>
+
+          </div>
+
+        </div>
+      </div>
 
       {/* #TODO Depoiments section */}
       <div className="depoiments--section" id="depoimentos"></div>

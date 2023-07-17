@@ -5,7 +5,7 @@
 /* All Sections static style */
 .home--section,
 .about--section,
-.preco--section,
+.price--section,
 .tutors--section,
 .depoiments--section,
 .contact--section {
@@ -127,7 +127,6 @@
   position: relative;
   top: 100px;
   gap: 80px;
-  
 }
 
 .price {
@@ -138,15 +137,17 @@
   height: 530px;
 }
 
-.price .bi-diamond, .price .bi-diamond-half, .price .bi-diamond-fill {
+.price .bi-diamond,
+.price .bi-diamond-half,
+.price .bi-diamond-fill {
   color: var(---text-color);
   font-size: 3rem;
-} 
+}
 
-.price h2, .price h3 {
+.price h2,
+.price h3 {
   text-transform: uppercase;
   color: var(---text-color);
-  
 }
 
 .infos {
@@ -172,8 +173,8 @@
   text-transform: uppercase;
 }
 
-.btn-primary:hover{
-  transition: .5s;
+.btn-primary:hover {
+  transition: 0.5s;
   cursor: pointer;
   opacity: 0.8;
 }
@@ -186,6 +187,53 @@
 }
 /* Tutors section */
 .tutors--section {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.tutor-know-1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(---text-color);
+  position: relative;
+  top: -30px;
+}
+ 
+.tutor-know-2 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.tutors {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  position: relative;
+  top: 50px;
+  gap: 50px;
+}
+
+.tutor {
+  background-color: var(---text-color);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 45px rgba(0,0,0, 0.23);
+  color: #fff;
+}
+
+.tutor--img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.tutor--img:hover {
+  transition: .8s;
+  transform: scale(1.1);
+  position: relative;
+  cursor: pointer;
 }
 
 /* Depoiments section */
