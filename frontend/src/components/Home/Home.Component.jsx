@@ -71,7 +71,7 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="price--section" id="precos">
+      <section className="price--section" id="precos">
         <div className="prices--infos">
           <h1>escolha seu plano</h1>
           <h4 className="prices-h4">
@@ -175,43 +175,53 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* #TODO Tutors section */}
       <div className="tutors--section" id="professores">
         <h1 className="tutor-know-1">conheça o time</h1>
-        <h5 className="tutor-know-2">A Master Learn conta com os melhores professores nas principais areas do desenvolvimento web</h5>
+        <h5 className="tutor-know-2">
+          A Master Learn conta com os melhores professores nas principais areas
+          do desenvolvimento web
+        </h5>
 
         <div className="tutors">
-
           <div className="tutor">
-            <img src="./images/tutor-1.jpg" alt="tutor" className="tutor--img"/>
+            <img
+              src="./images/tutor-1.jpg"
+              alt="tutor"
+              className="tutor--img"
+            />
             <h1>Fernando</h1>
             <h5>Back-end</h5>
           </div>
 
           <div className="tutor">
-            <img src="./images/tutor-2.jpg" alt="tutor" className="tutor--img"/>
+            <img
+              src="./images/tutor-2.jpg"
+              alt="tutor"
+              className="tutor--img"
+            />
             <h1>Clara</h1>
             <h5>Front-end</h5>
-   
           </div>
 
           <div className="tutor">
-            <img src="./images/tutor-3.jpg" alt="tutor" className="tutor--img"/>
+            <img
+              src="./images/tutor-3.jpg"
+              alt="tutor"
+              className="tutor--img"
+            />
             <h1>Lucca</h1>
             <h5>UX/UI</h5>
-
           </div>
-
         </div>
       </div>
 
       {/* #TODO Depoiments section */}
-      <div className="depoiments--section" id="depoimentos"></div>
+      <section className="depoiments--section" id="depoimentos"></section>
 
       {/* #TODO Contact us section */}
-      <div className="contact--section" id="contato"></div>
+      <section className="contact--section" id="contato"></section>
     </div>
   );
 };
