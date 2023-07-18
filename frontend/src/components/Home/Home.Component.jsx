@@ -1,6 +1,13 @@
 import React from "react";
 import "./Home.css";
 
+import { Pagination, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 const Home = () => {
   return (
     <div className="main--component">
@@ -217,8 +224,113 @@ const Home = () => {
         </div>
       </div>
 
-      {/* #TODO Depoiments section */}
-      <section className="depoiments--section" id="depoimentos"></section>
+      <section className="depoiments--section" id="depoimentos">
+        <div className="depoimentos">
+          <h1>Depoimentos</h1>
+          <h5>
+            Veja o feedback dos nossos alunos, e venha para a master learn você
+            também
+          </h5>
+        </div>
+
+        <Swiper
+          // install Swiper modules
+          modules={[Pagination, A11y]}
+          spaceBetween={50}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+        >
+          <SwiperSlide className="swipper-style">
+            <img
+              src="./images/slide-1.jpg"
+              alt="pessoa"
+              className="swiper-img"
+            />
+            <h1>David</h1>
+            <h5>
+              <i class="bi bi-quote"></i> O curso que participei foi
+              extremamente enriquecedor. Os professores demonstraram um profundo
+              conhecimento na área e souberam transmitir o conteúdo de forma
+              clara e envolvente. Além disso, as atividades práticas
+              proporcionaram uma excelente oportunidade para aplicar os
+              conceitos aprendidos. Recomendo esse curso a todos que desejam
+              aprimorar seus conhecimentos e desenvolver novas habilidades.
+            </h5>
+          </SwiperSlide>
+          <SwiperSlide className="swipper-style">
+            <img
+              src="./images/slide-2.jpg"
+              alt="pessoa"
+              className="swiper-img"
+            />
+            <h1>Fernanda</h1>
+            <h5>
+              <i class="bi bi-quote"></i>Eu gostaria de ajudar, mas preciso de
+              mais informações sobre o curso específico ao qual você se refere.
+              Por favor, forneça mais detalhes sobre o curso para que eu possa
+              oferecer uma opinião mais precisa.
+            </h5>
+          </SwiperSlide>
+          <SwiperSlide className="swipper-style">
+            <img
+              src="./images/slide-3.jpg"
+              alt="pessoa"
+              className="swiper-img"
+            />
+            <h1>Elly</h1>
+            <h5>
+              <i class="bi bi-quote"></i>O curso oferecido é extremamente
+              abrangente, abordando de forma completa e detalhada os principais
+              aspectos da área de estudo. Os professores são altamente
+              qualificados e engajados, proporcionando um ambiente de
+              aprendizado estimulante. Além disso, a estrutura do curso é bem
+              organizada, com materiais atualizados e recursos práticos que
+              favorecem o desenvolvimento dos alunos. No geral, é uma excelente
+              opção para quem busca aprimorar seus conhecimentos e se destacar
+              na área.
+            </h5>
+          </SwiperSlide>
+          <SwiperSlide className="swipper-style">
+            <img
+              src="./images/slide-4.jpg"
+              alt="pessoa"
+              className="swiper-img"
+            />
+            <h1>David</h1>
+            <h5>
+              <i class="bi bi-quote"></i>O curso em questão foi uma experiência
+              incrível, fornecendo conhecimentos valiosos e práticos. Os
+              instrutores foram altamente capacitados, demonstrando um profundo
+              domínio do assunto e uma abordagem envolvente. Além disso, a
+              estrutura do curso permitiu uma progressão clara e uma interação
+              significativa entre os participantes. Sem dúvida, recomendaria
+              esse curso a qualquer pessoa interessada em aprimorar suas
+              habilidades nessa área específica.
+            </h5>
+          </SwiperSlide>
+          <SwiperSlide className="swipper-style">
+            <img
+              src="./images/slide-5.jpg"
+              alt="pessoa"
+              className="swiper-img"
+            />
+            <h1>Lua</h1>
+            <h5>
+              <i class="bi bi-quote"></i>O curso que estou fazendo atualmente
+              tem sido uma experiência enriquecedora. Os conteúdos são
+              abrangentes e bem estruturados, fornecendo uma base sólida de
+              conhecimento na área. Além disso, os professores são altamente
+              qualificados e demonstram um grande comprometimento com o
+              aprendizado dos alunos. Estou realmente satisfeito com a qualidade
+              do curso e acredito que está contribuindo significativamente para
+              o meu desenvolvimento profissional.
+            </h5>
+          </SwiperSlide>
+        </Swiper>
+      </section>
 
       {/* #TODO Contact us section */}
       <section className="contact--section" id="contato"></section>

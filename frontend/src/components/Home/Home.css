@@ -238,8 +238,55 @@
 
 /* Depoiments section */
 .depoiments--section {
+  text-align: center;
 }
 
+.depoimentos h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(---text-color);
+  position: relative;
+  top: 150px;
+  margin-bottom: 160px;
+}
+
+.depoimentos h5 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.swiper-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-color: var(---text-color);
+  padding: 5px;
+}
+
+
+.swipper-style h1 {
+  text-transform: uppercase;
+  color: var(---text-color);
+  margin-bottom: 30px;
+}
+
+.swipper-style h5 {
+  font-weight: 400;
+
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.swiper-pagination-bullet {
+  visibility: hidden;
+}
+
+.bi-quote {
+  font-size: 2rem;
+  color: var(---text-color);
+}
 /* Depoiments section */
 .contact--section {
 }
