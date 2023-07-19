@@ -21,6 +21,9 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
     - Helment 
     - MongoDB
     - Mongoose
+
+### Hospegadem
+    - Vercel
     
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -29,7 +32,7 @@ Only for Educational propouses
 
 ### LINKS:
 
-FRONT (somente o front da aplicação que fora hosptedado na Vercel)
+FRONT (somente o front da aplicação que fora hospedato utilizando o Vercel)
 
 https://master-learn.vercel.app/
 
