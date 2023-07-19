@@ -333,7 +333,51 @@ const Home = () => {
       </section>
 
       {/* #TODO Contact us section */}
-      <section className="contact--section" id="contato"></section>
+      <section className="contact--section" id="contato">
+        <div className="base-1">
+          <img
+            src="./images/Illustration.png"
+            alt="contact"
+            className="icon-contact"
+          />
+        </div>
+        <div>
+          <div className="contact-us-ss">
+            <h1>Entre em contato conosco</h1>
+            <h5>
+              Estamos ansiosos para ouvir de você! Se você tiver alguma dúvida,
+              comentário ou sugestão, não hesite em entrar em contato conosco.
+              Preencha o formulário abaixo ou utilize os detalhes de contato
+              fornecidos e nossa equipe terá prazer em responder o mais rápido
+              possível.
+            </h5>
+          </div>
+
+          <input type="email" placeholder="email" />
+          <textarea
+            name=""
+            id=""
+            cols="45"
+            rows="8"
+            placeholder="mensagem"
+          ></textarea>
+          <button className="btn-primary">enviar</button>
+
+          <h5 className="txt-2">
+            Sua opinião é importante para nós e ajudará a melhorar nossos
+            produtos/serviços. Aguardamos o seu contato!
+          </h5>
+
+          <div className="social-media-links">
+            <h2>Nos siga em nossas redes sociais:</h2>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-github"></i>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

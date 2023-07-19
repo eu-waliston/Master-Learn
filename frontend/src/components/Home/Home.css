@@ -289,4 +289,53 @@
 }
 /* Depoiments section */
 .contact--section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.contact--section input {
+  width: 530px;
+
+}
+.contact--section textarea {
+  border: 1px solid #0000002c;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+
+.icon-contact {
+  width: 500px;
+}
+
+.contact-us-ss h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(---text-color);
+}
+
+.contact-us-ss h5, .txt-2  {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.base-1 {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.social-media-links h2 {
+  color: var(---text-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-media-links i {
+  font-size: 2rem;
+  margin-right: 10px;
+  cursor: pointer;
+  color: var(---text-color);
 }
