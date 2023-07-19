@@ -200,6 +200,7 @@ const Home = () => {
             />
             <h1>Fernando</h1>
             <h5>Back-end</h5>
+            <h5 className="professor">com mais de 9 anos de experiência como desenvlvedor backend, fernando é o cara quando o assunto é back-end com foco em javascript e aulas interativas, ele mostra que ensinar programação vai almém de apenas conteudos apresentados pelo professor</h5>
           </div>
 
           <div className="tutor">
@@ -210,6 +211,7 @@ const Home = () => {
             />
             <h1>Clara</h1>
             <h5>Front-end</h5>
+            <h5 className="professor">com mais de 7 anos de experiência, Clara é o nome a ser dito quando o assunto é desenvolvimento no frontend apaixonada por javascript ela aposta no react como maior tecnologia de todos os tempos</h5>
           </div>
 
           <div className="tutor">
@@ -220,6 +222,7 @@ const Home = () => {
             />
             <h1>Lucca</h1>
             <h5>UX/UI</h5>
+            <h5 className="professor">O que seria de todo desenvolvedor sem a ajuda desse cara não ? com mais de 5 anos de experiência Lucca trás toda sua desenvoltura e criatividade para dentro da ML com o intuito de melhorar ainda mais os desingnes produzidos</h5>
           </div>
         </div>
       </div>
@@ -332,7 +335,6 @@ const Home = () => {
         </Swiper>
       </section>
 
-      {/* #TODO Contact us section */}
       <section className="contact--section" id="contato">
         <div className="base-1">
           <img

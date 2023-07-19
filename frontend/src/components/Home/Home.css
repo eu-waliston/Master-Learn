@@ -236,6 +236,12 @@
   cursor: pointer;
 }
 
+.professor {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
 /* Depoiments section */
 .depoiments--section {
   text-align: center;
