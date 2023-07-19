@@ -27,3 +27,10 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
 Only for Educational propouses
 
 
+### LINKS:
+
+FRONT (somente o front da aplicação que fora hosptedado na Vercel)
+
+https://master-learn.vercel.app/
+
+
