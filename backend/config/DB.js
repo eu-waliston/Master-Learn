@@ -1,10 +1,12 @@
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 require("dotenv").config();
 
-var mongoDB = process.env.DB_URL;
-mongoose.connect(mongoDB, { useNewUrlParser: true });
+mongoose.connect(process.env.DB_URL, { useNewUrlParser: true });
 
-var db = mongoose.connection;
+const db = mongoose.connection;
 
-db.on("error", console.error.bind(console, "MongoDB connection error:"));
-db.on("error", console.error.bind(console, "MongoDB connection error:"));
+db.on("error", console.error.bind(console, "MongoDB connection error: "));
+
+db.once("open", () => {
+  console.log("Successfully Connected!");
+});
