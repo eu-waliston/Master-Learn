@@ -7,12 +7,12 @@ const {
   deleteCouse,
 } = require("../Controller/course.controller");
 
-const CouseRouter = express.Router();
+const CourseRouter = express.Router();
 
-CouseRouter.get("users/", getAllUsers);
-CouseRouter.get("users/:id", getUser);
-CouseRouter.post("users/", createUser);
-CouseRouter.put("users/:id", updateUser);
-CouseRouter.delete("users/:id", deleteUser);
+CourseRouter.get("users/", getAllUsers);
+CourseRouter.get("users/:id", getUser);
+CourseRouter.post("users/", createUser);
+CourseRouter.put("users/:id", updateUser);
+CourseRouter.delete("users/:id", deleteUser);
 
-module.exports = CouseRouter;
+module.exports = CourseRouter;
