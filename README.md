@@ -24,6 +24,8 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
 
 ### Hospegadem
     - Vercel
+    - AWS
+    - Render API
     
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
