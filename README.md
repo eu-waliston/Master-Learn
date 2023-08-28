@@ -22,7 +22,7 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
     - MongoDB
     - Mongoose
 
-### Hospegadem
+### Hospedagem
     - Vercel
     - AWS
     - Render API
