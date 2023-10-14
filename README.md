@@ -12,7 +12,6 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
     - React Router Dom
     - React Icons 
     - Css
-    - Styled Componets
     - Google Fonts
 ### Backend 
     - NodeJS
