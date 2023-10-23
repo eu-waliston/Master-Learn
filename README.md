@@ -11,7 +11,6 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
     - Scss
     - React Router Dom
     - React Icons
-    - Google Fonts
 ### Backend 
     - NodeJS
     - Express
