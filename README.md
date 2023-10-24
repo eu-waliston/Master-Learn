@@ -18,7 +18,6 @@ O projeto é fictício, e tudo que fora desenvolvido é apenas sob propósitos e
     - Helment 
     - MongoDB
     - Mongoose
-    - JS
 ### Hospedagem
     - Vercel
     - AWS
