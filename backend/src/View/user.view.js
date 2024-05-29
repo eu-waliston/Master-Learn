@@ -1,18 +1,21 @@
-const express = require("express");
+const express = require("express")
+
+let UserRouter = express.Router()
+
 const {
-  getAllUsers,
-  getUser,
-  createUser,
-  updateUser,
-  deleteUser,
-} = require("../Controller/user.controller");
+    CreateUser,
+    RegisterUser,
+    GetUser,
+    GetAllUsers,
+    UpdateUser,
+    DeleteUser
+} = require("../Controller/User.Controller")
 
-const UserRouter = express.Router();
-
-UserRouter.get("users/", getAllUsers);
-UserRouter.get("users/:id", getUser);
-UserRouter.post("users/", createUser);
-UserRouter.put("users/:id", updateUser);
-UserRouter.delete("users/:id", deleteUser);
+UserRouter.get("/master-learn/api/v1/register", CreateUser)
+UserRouter.post("/master-learn/api/v1/login", RegisterUser)
+UserRouter.get("/master-learn/api/v1/get-a-user/:id", GetUser)
+UserRouter.get("/master-learn/api/v1/get-all-users", GetAllUsers)
+UserRouter.put("/master-learn/api/v1/update-a-user/:id", UpdateUser)
+UserRouter.delete("/master-learn/api/v1/delete-a-user/:id", DeleteUser)
 
 module.exports = UserRouter;
